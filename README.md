@@ -3,7 +3,7 @@
 A Zephyr Bluetooth Low Energy periphral manager.
 Manages the advertising, conections and services of a Bluetooth Low Energy connection.
 
-### Usage
+## Usage
 
 Bluetooth manager must be used. It should be sent a advertising data array, a scan response array, a timeout and callbacks for connection, disconnection and timeout. Pass NULL if not using any of these.
 
@@ -45,7 +45,7 @@ int nus_send_int(uint64_t value);
 int nus_send_string(const char *buffer, size_t len);
 ```
 
-### Example
+## Example
 
 ```C
 if (bt_manager_init(
@@ -76,7 +76,7 @@ if (nus_init(callback) == 0) {
 }
 ```
 
-### Todo
+## Todo
 
 Add other services and a 'custom' service.<br>
 Send other data typeso over nus.

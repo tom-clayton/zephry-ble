@@ -1,3 +1,9 @@
+/*
+ * bt_manager.h: Controls Bluetooth Low Energy advertising and connections.
+ *
+ * Tom Clayton 2025
+ *
+ */
 #ifndef BT_MANAGER_H
 #define BT_MANAGER_H
 

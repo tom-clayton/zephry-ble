@@ -1,3 +1,9 @@
+/*
+ * bt_manager.c: Controls Bluetooth Low Energy advertising and connections.
+ *
+ * Tom Clayton 2025
+ *
+ */
 #include "bt_manager.h"
 
 #include <errno.h>
